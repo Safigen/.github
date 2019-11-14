@@ -9,6 +9,7 @@
  - Default value or behavior: 
  
 ***Non-Functional changes***
+
 List here a list of non-functional changes
 
 ***Configuration needed***

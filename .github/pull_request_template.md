@@ -9,7 +9,8 @@
  - Default value or behavior: 
  
 ***Non-Functional changes***
-  
+List here a list of non-functional changes
+
 ***Configuration needed***
 
 Add here any extra configuration needed to deploy this as environment variables. Is there any preconditions?

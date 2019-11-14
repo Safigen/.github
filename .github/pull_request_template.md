@@ -2,11 +2,22 @@ Fixes/Closes #
 
 ## Proposed Changes
 
-  -
-  -
+ - View and/or widget affected:
+ - What changed exactly: 
+ - What is the expected behavior: 
+ - This change applies for an specific company/user role: 
+ - Default value or behavior: 
   
 ***Configuration needed***
-Add here any extra configuration needed to deploy this as environment variables.
+
+Add here any extra configuration needed to deploy this as environment variables. Is there any preconditions?
+
+***Testing considerations***
+
+ - [ ] Run the happy path flow
+ - [ ] Define the default behaviors
+ - [ ] Quick check on mobile
+ - [ ] Affected functionalities checked. Which ones? (this information is relevant for testing integration purposes)
 
 ***Rollback plan***
 

@@ -1,12 +1,14 @@
-Fixes/Closes #
+## Implements/Fixes #
 
-## Proposed Changes
+***Functional Changes***
 
  - View and/or widget affected:
  - What changed exactly: 
  - What is the expected behavior: 
- - This change applies for an specific company/user role: 
+ - This change applies to a specific company/user role: 
  - Default value or behavior: 
+ 
+***Non-Functional changes***
   
 ***Configuration needed***
 

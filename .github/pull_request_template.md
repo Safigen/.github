@@ -21,6 +21,7 @@ Add here any extra configuration needed to deploy this as environment variables.
  - [ ] Run the happy path flow
  - [ ] Define the default behaviors
  - [ ] Quick check on mobile
+ - [ ] Consider meter types, time zones, group devices
  - [ ] Affected functionalities checked. Which ones? (this information is relevant for testing integration purposes)
 
 ***Rollback plan***

@@ -1,0 +1,26 @@
+name: Setup gcloud
+description: This will configure gcloud based on the input parameters to deploy the app
+on:
+  workflow_call:
+    inputs:
+      email:
+        description: 'gcloud service account email'
+        required: true
+      credentials:
+        description: 'gcloud service account credentials'
+        required: true
+jobs:
+  setup-gcloud:
+    name: Setup gcloud account
+    runs-on: ubuntu-latest
+    steps:
+      # Setup gcloud CLI
+      - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+        with:
+          service_account_email: ${{ inputs.email }}
+          service_account_key: ${{ inputs.credentials }}
+          export_default_credentials: true
+      # Configure Docker with Credentials
+      - name: Configure Docker
+        run: |
+          gcloud auth configure-docker
